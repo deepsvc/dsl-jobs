@@ -57,7 +57,7 @@ project_path: "${workspace}/ansible-terraform-assignment-code/terraform-docker-d
         }
 
         stage('Deploy Terraform Planned Template') {
-            if ("${Terraform_Action}" == 'Deploy_Direct') {
+            if ("${Terraform_Action}" == 'Deploy_Directly') {
             sh '''
                 cd ansible-terraform-assignment-code
                 ansible-playbook playbook.yml --skip-tags plan,absent,init,deploy_planned
