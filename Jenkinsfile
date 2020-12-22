@@ -25,7 +25,7 @@ region = "${TF_Backend_Config_Region}"
 ---
 doc_name: "${Docker_Image_Name}"
 backend_config: "${workspace}/ansible-terraform-assignment-code/config.tf"
-project_path: "${workspace}/terraform-docker-demo"
+project_path: "${workspace}/ansible-terraform-assignment-code/terraform-docker-demo"
             """
         }
 
